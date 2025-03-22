@@ -1,0 +1,33 @@
+*{
+    margin:auto;
+    padding:0;
+}
+
+#tempInput,
+.radioWrapper,
+#submitBtn{
+    display: block;
+}
+
+.container{
+    text-align: center;
+    margin-top: 10vw;
+}
+
+.tempWrapper{
+    width:50%;
+    border: 1px solid black;
+    padding: 5em 1em;
+    border-radius: 6px;
+    box-shadow: 6px 6px 12px;
+}
+
+#tempInput{
+    line-height: 1.5em;
+    margin: 1.1em auto;
+}
+
+#submitBtn{
+    margin-top: 1.1em;
+    padding: 0.6em 1em;
+}

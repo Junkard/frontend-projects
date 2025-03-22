@@ -1,26 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Temperature Conversion</title>
 </head>
+
 <body>
-    <h1>
-        <label for="tempInput">Temperature Conversion:</label>
-    </h1>
-    <input type="text" name="tempInput" id="tempInput">
-
-    <input type="radio" name="tempConverter" id="CelToFah">
-    <label for="tempConverter">Celsius ==> Fahrenheit</label>
-    <input type="radio" name="tempConverter" id="FahToCel">
-    <label for="tempConverter">Fahrenheit ==> Celsius</label>
-
-    <button type="submit" id="submitBtn">Submit</button>
-
-    <p id="tempOutput"></p>
+    <div class="container">
+        <div class="tempWrapper">
+            <h1>
+                <label for="tempInput">Temperature Conversion:</label>
+            </h1>
+            <input type="text" name="tempInput" id="tempInput">
+            
+            <div class="radioWrapper">
+                <input type="radio" name="tempConverter" id="CelToFah">
+                <label for="tempConverter">Celsius ==> Fahrenheit</label>
+            </div>
+            <div class="radioWrapper">
+                <input type="radio" name="tempConverter" id="FahToCel">
+                <label for="tempConverter">Fahrenheit ==> Celsius</label>
+            </div>
+            <button type="submit" id="submitBtn">Submit</button>
+            <p id="tempOutput">-----</p>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
+
 </html>
